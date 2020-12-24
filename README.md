@@ -1,3 +1,9 @@
+# 克隆项目
+
+```git
+git clone https://github.com/ChaoAbner/data-migration-pro.git
+```
+
 # 运⾏前置准备
 
 mac系统请直接跳到第四步：安装依赖
