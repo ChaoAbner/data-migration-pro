@@ -10,6 +10,14 @@ def remove_files_by_dir(dir):
     for i in file_name_list:
         print("文件已存在，删除文件：" + i)
         os.remove(dir + i)
+    remove_store(dir)
+
+
+def remove_store(dir):
+    store_path = dir + '.DS_Store'
+    if os.path.exists(store_path):
+        print("删除文件：" + store_path)
+        os.remove(store_path)
 
 
 def check_and_create_dir(dir):

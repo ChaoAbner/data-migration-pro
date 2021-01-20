@@ -1,6 +1,6 @@
 import pandas as pd
 
-from utils.file_utils import remove_files_by_dir, get_filename_list, check_dirs, get_desktop_path
+from utils.file_utils import remove_files_by_dir, get_filename_list, check_dirs, get_desktop_path, remove_store
 from utils.wash_data_utils import wash_data
 
 # excel生成csv，并且清洗
@@ -37,8 +37,11 @@ def run():
 
 def read_excel(path):
     print("当前excel文件：" + path)
-    df = pd.read_excel(excel_file_root_path + path)
-    return df
+    if path.endswith('DS_Store'):
+        remove_store(excel_file_root_path)
+    else:
+        df = pd.read_excel(excel_file_root_path + path)
+        return df
 
 
 if __name__ == '__main__':
