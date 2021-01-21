@@ -32,6 +32,8 @@ mac系统请直接跳到第四步：安装依赖
 
 输⼊命令：**pip install -r requirements.txt**
 
+没有pip需要先安装pip
+mac安装命令：**sudo easy_install pip**
 
 
 # 转**CSV**操作
