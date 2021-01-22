@@ -32,7 +32,7 @@ mac系统请直接跳到第四步：安装依赖
 
 输⼊命令：**pip3 install -r requirements.txt --target=/Users/user/Library/Python/3.8/lib/python/site-packages**
 
-没有pip需要先安装pip
+如果提示没有安装pip则需要先安装pip
 mac安装命令：
 
 **curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py**
