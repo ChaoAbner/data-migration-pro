@@ -59,7 +59,7 @@ mac安装命令：
 
 进⼊到脚本⽬录，即**data-migration-pro**
 
-运⾏命令：**python data_tranfrom.py**
+运⾏命令：**python3 data_tranfrom.py**
 
 等待脚本运⾏完成，即可看到桌⾯上多了⼀个⽂件夹 **csvFile**
 
