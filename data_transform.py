@@ -4,7 +4,6 @@ from utils.file_utils import remove_files_by_dir, get_filename_list, check_dirs,
 from utils.wash_data_utils import wash_data
 
 # excel生成csv，并且清洗
-
 excel_file_root_path = get_desktop_path() + '/newDataExcelList/'
 
 new_csvFile_root_path = get_desktop_path() + '/csvFile/'

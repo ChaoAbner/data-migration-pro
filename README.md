@@ -34,8 +34,11 @@ mac系统请直接跳到第四步：安装依赖
 
 没有pip需要先安装pip
 mac安装命令：
+
 **curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py**
+
 **python3 get-pip.py --user**
+
 **rm get-pip.py**
 
 
