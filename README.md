@@ -30,10 +30,14 @@ mac系统请直接跳到第四步：安装依赖
 
 进⼊到脚本⽬录，即**data-migration-pro**
 
-输⼊命令：**pip install -r requirements.txt**
+输⼊命令：**pip3 install -r requirements.txt --target=/Users/user/Library/Python/3.8/lib/python/site-packages**
 
 没有pip需要先安装pip
-mac安装命令：**sudo easy_install pip**
+mac安装命令：
+**curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py --user
+rm get-pip.py**
+
 
 
 # 转**CSV**操作
